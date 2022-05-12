@@ -7,9 +7,8 @@ class Fieldset extends React.Component {
   
   handleData = (event) => {
     const { target: value, name } = event;
-    this.setState()
-  }
-
+    this.setState({ [name]: value })
+  } 
 
   render() {
     return (
